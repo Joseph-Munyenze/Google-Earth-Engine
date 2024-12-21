@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO42cbQTQzDSpABx2fp84wC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Joseph-Munyenze/Google-Earth-Engine/blob/main/Classes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "8ITD3r5cxxAb"
+      },
+      "outputs": [],
+      "source": [
+        "# prompt: write python class for calcualtions\n",
+        "\n",
+        "class Calculator:\n",
+        "    def __init__(self, num1, num2):\n",
+        "        self.num1 = num1\n",
+        "        self.num2 = num2\n",
+        "\n",
+        "    def add(self):\n",
+        "        return self.num1 + self.num2\n",
+        "\n",
+        "    def subtract(self):\n",
+        "        return self.num1 - self.num2\n",
+        "\n",
+        "    def multiply(self):\n",
+        "        return self.num1 * self.num2\n",
+        "\n",
+        "    def divide(self):\n",
+        "        if self.num2 == 0:\n",
+        "            return \"Division by zero error\"\n",
+        "        else:\n",
+        "            return self.num1 / self.num2\n"
+      ]
+    }
+  ]
+}
